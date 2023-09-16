@@ -10,12 +10,10 @@ namespace Devops_Infnet.Controllers
         {
           "Quente", "Ensolarado", "Escaldante", "Chuvoso", "Frio","Tempestade"
     };
-
-        private readonly ILogger<PrevisaoDoTempoController> _logger;
-
-        public PrevisaoDoTempoController(ILogger<PrevisaoDoTempoController> logger)
+                
+        public PrevisaoDoTempoController()
         {
-            _logger = logger;
+        
         }
 
         [HttpGet(Name = "GetPrevisaoDoTempo")]
