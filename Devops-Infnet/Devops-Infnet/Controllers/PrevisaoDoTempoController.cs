@@ -8,7 +8,7 @@ namespace Devops_Infnet.Controllers
     {
         private static readonly string[] Resumos = new[]
         {
-         "Frio", "Quente", "Ensolarado", "Escaldante", "Chuvoso"
+          "Quente", "Ensolarado", "Escaldante", "Chuvoso", "Frio"
     };
 
         private readonly ILogger<PrevisaoDoTempoController> _logger;
