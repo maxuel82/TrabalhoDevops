@@ -22,7 +22,7 @@ builder.Services.AddHealthChecksUI(s =>
     
 })
 .AddInMemoryStorage();
-//builder.Services.AddApplicationInsightsTelemetry(builder.Configuration["APPINSIGHTS_CONNECTIONSTRING"]);
+builder.Services.AddApplicationInsightsTelemetry(builder.Configuration["APPINSIGHTS_CONNECTIONSTRING"]);
 
 var app = builder.Build();
 
